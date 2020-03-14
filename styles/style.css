@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    margin: 0;
+}
+
+.header {
+    height: 64px;
+    display: flex;
+    border-bottom: 1px solid #e2e6e8;
+}
+
+.header__logo {
+    height: 100%;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__logo__img {
+    height: 100%;
+}
+
+.header__logo__text {
+    padding-left: 8px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #37517e;
+}
+
+.container {
+    height: 100%;
+    background: #f2f5f7;
+}
+
+.cards-list {
+    height: 100%;
+    position: relative;
+}
+
+.card {
+    list-style: none;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.card:nth-child(1) {
+    background-color: #3f51b5;
+}
+
+.card:nth-child(2) {
+    background-color: #2c96f4;
+}
+
+.card:nth-child(3) {
+    background-color: #2ea9f4;
+}
+
+.card:nth-child(4) {
+    background-color: #29bcd4;
+}
+
+.card:nth-child(5) {
+    background-color: #149689;
+}
+
+.card:nth-child(6) {
+    background-color: #4daf4f;
+}
+
+.card:nth-child(7) {
+    background-color: #8ac24a;
+}
+
+.card:nth-child(8) {
+    background-color: #fceb3b;
+}
+
+.card:nth-child(9) {
+    background-color: #fbc107;
+}
+
+.card:nth-child(10) {
+    background-color: #fc9700;
+}
+
+.card:nth-child(11) {
+    background-color: #f44235;
+}
+
+.card:nth-child(12) {
+    background-color: #e92563;
+}
+
+.card:nth-child(13) {
+    background-color: #9c26b0;
+}
+
+.card:nth-child(14) {
+    background-color: #673ab6;
+}
+
+.card:nth-child(15) {
+    background-color: #607d8a;
+}
+
+.card__title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 31px;
+    color: #fff;
+    text-shadow: 0 0 10px #bdbdbd;
+    pointer-events: none;
+}
+
+.card__title[class^="flaticon-"]:before,
+.card__title[class*=" flaticon-"]:before {
+    color: #fff;
+    font-size: 34px;
+}
+
+.cards-reset {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    left: 50%;
+    right: 0;
+    z-index: 99;
+    color: #fff;
+    transform: translateX(-50%) scale(0);
+}
+
+.cards-reset:before {
+    font-size: 34px;
+    margin: 0;
+}
