@@ -1,4 +1,4 @@
-const cacheName = 'poker planning v0.1';
+const cacheName = 'poker planning v0.2';
 const filesToCache = [
     '/',
     '/index.html',
@@ -8,6 +8,7 @@ const filesToCache = [
     '/styles/style.css',
 
     '/scripts/app.js',
+    '/scripts/gsap.min.js',
 
     '/assets/images/logo-192x192.png',
     '/assets/images/logo-512x512.png',
