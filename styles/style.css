@@ -152,6 +152,8 @@ html, body {
     z-index: 99;
     color: #fff;
     transform: translateX(-50%) scale(0);
+    border: 0;
+    background: transparent;
 }
 
 .cards-reset:before {
